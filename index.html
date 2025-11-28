@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypt0Clicker3</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+
+    <!-- pygbag CDN -->
+    <script src="https://pygame-web.github.io/archives/0.9/pygbag.js"></script>
+</head>
+
+<body style="background: white; color: black; font-family: sans-serif;">
+    <h2>Crypt0Clicker3 latautuu...</h2>
+
+    <script type="application/python" src="Crypt0Clicker3.py"></script>
+
+    <script>
+        window.addEventListener("load", () => {
+            pygbag.run({
+                program: "Crypt0Clicker3.py",
+                canvas: null,
+                args: []
+            });
+        });
+    </script>
+</body>
+</html>
